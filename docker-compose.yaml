@@ -11,6 +11,6 @@ services:
     ports:
       - "3000:3000"
     #environment:
-    #  - BACKEND_URL=http://<IP_ADDRESS>:<PORT> # Backend URL without trailing slash
+    #  - BACKEND_URL=http:127.0.0.1:8000 # Backend URL without trailing slash
     stdin_open: true
     tty: true
